@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     
-    <title>解决 Hexo 神烦的 Error-Cannot find module | JKing</title>
+    <title>解除Chrome非https摄像头、定位等限制 | JKing</title>
     <meta name="renderer" content="webkit">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -15,11 +15,11 @@
     <meta name="description" content="闻过而终礼，知耻而后勇">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="解决 Hexo 神烦的 Error-Cannot find module | JKing">
+    <meta name="twitter:title" content="解除Chrome非https摄像头、定位等限制 | JKing">
     <meta name="twitter:description" content="闻过而终礼，知耻而后勇">
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="解决 Hexo 神烦的 Error-Cannot find module | JKing">
+    <meta property="og:title" content="解除Chrome非https摄像头、定位等限制 | JKing">
     <meta property="og:description" content="闻过而终礼，知耻而后勇">
 
     
@@ -35,7 +35,7 @@
     <meta name="generator" content="hexo"/>
     
 
-    <link rel="canonical" href="http://yoursite.com/2017/05/26/解决 Hexo 神烦的 Error- Cannot find module/"/>
+    <link rel="canonical" href="http://yoursite.com/2019/02/22/解除Chrome非https摄像头、定位等限制/"/>
 
                  
 </head>
@@ -131,37 +131,30 @@
 
   <header class="post-header">
     <div class="post-meta">
-      <time datetime="2017-05-26T13:54:27.000Z" class="post-list__meta--date date">2017-05-26</time> &#8226; <span class="post-meta__tags tags">于 
-  <a class="tag-link" href="/tags/hexo/">hexo</a>
+      <time datetime="2019-02-22T05:46:27.000Z" class="post-list__meta--date date">2019-02-22</time> &#8226; <span class="post-meta__tags tags">于 
+  <a class="tag-link" href="/tags/Chrome/">Chrome</a>
  </span>
       <span class="page-pv">
        Read <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
       </span> 
    
     </div>
-    <h1 class="post-title">解决 Hexo 神烦的 Error-Cannot find module</h1>
+    <h1 class="post-title">解除Chrome非https摄像头、定位等限制</h1>
   </header>
 
   <section class="post">
-    <h1 id="解决-Hexo-神烦的-Error-Cannot-find-module"><a href="#解决-Hexo-神烦的-Error-Cannot-find-module" class="headerlink" title="解决 Hexo 神烦的 Error: Cannot find module"></a>解决 Hexo 神烦的 Error: Cannot find module</h1><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>自从GitHub被微软给收购了，GitHub打开巨慢，无奈只好爬梯子，访问上是没啥问题了，但是clone、push等操作有时候速度为 0kb/s… 简直不能忍… 最近发现<code>hexo deploy</code>老半天也没反应，梯子竟然也不管用，尝试了多种办法，如：删除<code>.deploy_git</code>然后重新生成、更新git版本、npm重装、hexo重装、给http/https请求挂代理等等… 竟然都不管用! 不仅问题没解决，还导致hexo命令出现了神烦的错误提示…</p>
-<h3 id="错误长这样"><a href="#错误长这样" class="headerlink" title="错误长这样"></a>错误长这样</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123; [<span class="built_in">Error</span>: Cannot find <span class="built_in">module</span> <span class="string">'./build/Release/DTraceProviderBindings'</span>] code: <span class="string">'MODULE_NOT_FOUND'</span> &#125;</span><br><span class="line">&#123; [<span class="built_in">Error</span>: Cannot find <span class="built_in">module</span> <span class="string">'./build/default/DTraceProviderBindings'</span>] code: <span class="string">'MODULE_NOT_FOUND'</span> &#125;</span><br><span class="line">&#123; [<span class="built_in">Error</span>: Cannot find <span class="built_in">module</span> <span class="string">'./build/Debug/DTraceProviderBindings'</span>] code: <span class="string">'MODULE_NOT_FOUND'</span> &#125;</span><br></pre></td></tr></table></figure>
-<h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>1.hexo官方也给出了解决办法:</p>
-<blockquote>
-<p>npm install hexo –no-optional</p>
-</blockquote>
-<p>好吧，对于我这边不管用！</p>
-<p>那么我只能彻底一点了！</p>
-<p>2.我的解决办法： </p>
-<p>卸载掉hexo，重新安装</p>
-<blockquote>
-<p>npm uninstall hexo<br>npm install hexo –no-optional</p>
-</blockquote>
-<p>卸载掉hexo-cli，重新安装</p>
-<blockquote>
-<p>npm uninstall hexo-cli -g<br>npm install hexo-cli -g</p>
-</blockquote>
-<p>再来试试hexo命令，我这边已经不提示错误了XD</p>
-
+    <h2 id="Google"><a href="#Google" class="headerlink" title="Google"></a>Google</h2><p>2018年2月8日，谷歌安全博客发布公告：从2018年7月Chrome 68版本开始，将所有HTTP页面标记“不安全”。</p>
+<h2 id="Reason"><a href="#Reason" class="headerlink" title="Reason"></a>Reason</h2><p>项目中遇到一个视频会话需求，需要用到腾讯云的小程序直播SDK，官方文档给的【演示小程序和 Chrome 浏览器的互通能力】的demo，测试时发现网页<code>http://img.qcloud.com</code>为非https的，导致chrome限制网页的摄像头、麦克风等功能。</p>
+<h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><h4 id="MacOS"><a href="#MacOS" class="headerlink" title="MacOS"></a>MacOS</h4><ul>
+<li>创建脚本 <code>$ touch chromeAuth.sh</code>, 粘贴以下内容：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash</span><br><span class="line">host=$1</span><br><span class="line">if [ $2 ]; then</span><br><span class="line">port=&quot;:$2&quot;</span><br><span class="line">fi</span><br><span class="line">cd &quot;/Applications/Google Chrome.app/Contents/MacOS/&quot;</span><br><span class="line">if [ ! -f &quot;Google.real&quot; ]; then </span><br><span class="line">mv &quot;Google Chrome&quot; &quot;Google.real&quot;</span><br><span class="line">fi </span><br><span class="line">printf &apos;#!/bin/bash\ncd &quot;/Applications/Google Chrome.app/Contents/MacOS&quot;\n&quot;/Applications/Google Chrome.app/Contents/MacOS/Google.real&quot; --unsafely-treat-insecure-origin-as-secure=&quot;http://&apos;&quot;$&#123;host&#125;$&#123;port&#125;&quot;&apos;&quot; --user-data-dir=/var/tmp &quot;$@&quot;\n&apos; &gt; &apos;Google Chrome&apos;</span><br><span class="line">chmod 777 &quot;Google Chrome&quot;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>运行脚本 <code>$sudo bash chromeAuth.sh ip port</code> (http://不用加)<br>例如：<code>$sudo bash chromeAuth.sh img.qcloud.com 80</code></li>
+<li>重启Chrome，重新键入地址，发现可以获取摄像头、麦克风、定位等权限了<br><img src="https://i.loli.net/2019/02/22/5c6fa25c58b9f.png" alt="WeChatea857f1ea474b20ffa9c7d3fa1e3d5e2.png"></li>
+<li>上述操作之后Chrome如同新安装的，会清除一切数据，恢复方法如下：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">// 1.打开终端，切换目录：</span><br><span class="line">$ cd /Applications/Google Chrome.app/Contents/MacOS/</span><br><span class="line">// 2.重新命名`Google Chrome`</span><br><span class="line">$ mv &quot;Google Chrome&quot; &quot;Google Chrome.back&quot;</span><br><span class="line">// 3.重新命名`Google.real`</span><br><span class="line">$ mv &quot;Google.real&quot; &quot;Google Chrome&quot;</span><br><span class="line">// 4.重启Chrome</span><br></pre></td></tr></table></figure>
   </section>
 
 </article>
@@ -169,43 +162,19 @@
 <section class="read-more">
            
     
-               
-            <div class="read-more-item">
-                <span class="read-more-item-dim">Newer Post</span>
-                <h2 class="post-list__post-title post-title"><a href="/2017/07/03/HTTP概述/" title="HTTP概述">HTTP概述</a></h2>
-                <p class="excerpt">
-                
-                HTTP概述1.1 媒体类型MIME type (Multipurpose Internet Mail Extension, 多用途因特网邮件拓展) 
-MIME类型是一种文本标记，表示一种主要的对象类型和一个特定的子类型，中间由一条斜杠来分隔。
-1.2 URI (Uniform Resource I
-                &hellip;
-                </p>
-                <div class="post-list__meta"><time datetime="2017-07-03T02:36:15.000Z" class="post-list__meta--date date">2017-07-03</time> &#8226; <span class="post-list__meta--tags tags">于 
-  <a class="tag-link" href="/tags/HTTP/">HTTP</a>
-</span><a class="btn-border-small" href="/2017/07/03/HTTP概述/">继续阅读</a></div>
-                           
-            </div>
         
         
                
             <div class="read-more-item">
                 <span class="read-more-item-dim">Older Post</span>
-                <h2 class="post-list__post-title post-title"><a href="/2017/03/30/链表和二叉树/" title="链表和二叉树">链表和二叉树</a></h2>
+                <h2 class="post-list__post-title post-title"><a href="/2019/02/15/MacOS-配置Apache-php/" title="MacOS 配置Apache+php">MacOS 配置Apache+php</a></h2>
                 <p class="excerpt">
                 
-                前言链表？二叉树？我是谁？我在哪？我要做什么？
-链表是什么1.优点* 解决了数组元素个数无法改变的限制.
-* 数组移动元素的过程中，要对元素进行大范围的移动，耗时且效率低.
-2.基本结构
-由上图可以看出： 
-
-链表就是多个指针连接的多个结构体。
-链表的基本构成：头指针(Header) + 若干个节点
+                常用路径以及命令
+Apatche: /etc/apache2配置文件: /etc/apache2/httpd.conf启动apatch: $sudo apachectl -k start关闭apatch: $sudo apachectl -k stop重启apatch: $sudo apachect
                 &hellip;
                 </p>
-                <div class="post-list__meta"><time datetime="2017-03-30T03:28:01.000Z" class="post-list__meta--date date">2017-03-30</time> &#8226; <span class="post-list__meta--tags tags">于 
-  <a class="tag-link" href="/tags/链表-二叉树/">链表 二叉树</a>
-</span><a class="btn-border-small" href="/2017/03/30/链表和二叉树/">继续阅读</a></div>
+                <div class="post-list__meta"><time datetime="2019-02-15T02:15:49.000Z" class="post-list__meta--date date">2019-02-15</time> &#8226; <span class="post-list__meta--tags tags">于 </span><a class="btn-border-small" href="/2019/02/15/MacOS-配置Apache-php/">继续阅读</a></div>
                        
             </div>
         
@@ -229,9 +198,9 @@ MIME类型是一种文本标记，表示一种主要的对象类型和一个特�
     <script type="text/javascript">
     var disqus_shortname = 'JKing';
     var disqus_config = function () {
-        this.page.url = 'http://yoursite.com/2017/05/26/解决 Hexo 神烦的 Error- Cannot find module/';
-        this.page.identifier = '/2017/05/26/解决 Hexo 神烦的 Error- Cannot find module/';
-        this.page.title = '解决 Hexo 神烦的 Error-Cannot find module';
+        this.page.url = 'http://yoursite.com/2019/02/22/解除Chrome非https摄像头、定位等限制/';
+        this.page.identifier = '/2019/02/22/解除Chrome非https摄像头、定位等限制/';
+        this.page.title = '解除Chrome非https摄像头、定位等限制';
     };
     (function(){
       var d = document;
